@@ -1,0 +1,1 @@
+./txrx --tx-args "name=MyB200" --rx-args "name=MyB200" --file "rx_data.bin" --type "float" --nsamps 5000 --spb 3000 --tx-rate 5e6 --rx-rate 5e6 --tx-freq 2.6e9 --rx-freq 2.6e9 --ampl 0.5 --tx-gain 40 --rx-gain 10 --tx-ant "TX/RX" --rx-ant "RX2" --tx-subdev "A:A" --rx-subdev "A:A" --tx-bw 1e6 --rx-bw 1e6 --wave-type "SINE" --wave-freq 1.0e3 --otw "sc16" 
